@@ -1,0 +1,42 @@
+h1{
+    color: white;
+  
+}
+.one{
+
+    color: black;
+  
+}
+li{
+    color: white;
+  display:inline;
+  margin-right: 10%;
+}
+header{
+  text-align:center;
+  background-color:maroon ;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  
+}
+section{
+    background-color:darkgray (127, 133, 255) ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+}
+img{
+    border-radius: 50px;
+}
+#two{
+display: inline-block, width="10px";
+background-color: rgb(246, 4, 4);
+padding-top: 1%;
+padding-bottom: 1%;
+}
+#three{
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
