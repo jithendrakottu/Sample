@@ -1,0 +1,19 @@
+var random=Math.floor(Math.random()*100)+1;
+var attempts=0;
+document.getElementById('btn').addEventListener('click',function(){
+attempts++;
+var guess=parseInt(document.getElementById('guessinput').value);
+if(guess===random){
+    display("congratulations "+attempts);
+    document.getElementById('btn').disabled=true;
+}
+else if(guess<random){
+    display("Too Low, Try again");
+}
+else Image(guess>random){
+    display("Too High, try again");
+}
+})
+function display(message){
+    document.getElementById("msg").textContent=message;
+}
